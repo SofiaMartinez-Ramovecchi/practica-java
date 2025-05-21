@@ -1,0 +1,48 @@
+{
+    "nombreRefugio": "El Descanso del Cóndor",
+    "ubicacion": {
+      "region": "Patagonia Andina",
+      "coordenadas": "-41.1335, -71.3103",
+      "altitudMetros": 1850,
+      "acceso": "Sendero de montaña de 8km, dificultad media-alta. Se requiere registro previo."
+    },
+    "capacidadTotal": 20,
+    "servicios": [
+      { "nombre": "Pernocte en litera", "descripcion": "Litera con saco de dormir y aislante (traer propio o alquilar).", "costoPorNocheUSD": 25, "disponibilidadBase": 20 },
+      { "nombre": "Comida completa (cena + desayuno)", "descripcion": "Menú fijo, opciones vegetarianas disponibles con aviso previo.", "costoPorPersonaUSD": 30, "requiereReservaPrevia": true },
+      { "nombre": "Uso de cocina comunitaria", "descripcion": "Acceso a cocina equipada para preparar propias comidas.", "costoPorDiaUSD": 5, "disponible": true },
+      { "nombre": "Alquiler de equipo de nieve", "descripcion": "Raquetas, crampones, piquetas.", "costoPorDiaUSD": 15, "disponible": "Solo temporada invernal" },
+      { "nombre": "Guía de montaña", "descripcion": "Excursiones guiadas a cumbres y lagos cercanos.", "costoPorExcursionUSD": 100, "requiereReservaPrevia": true, "gruposMinimos": 2 }
+    ],
+    "reglas": [
+      "Prohibido hacer fuego fuera de las áreas designadas.",
+      "Regresar toda la basura generada.",
+      "Horario de silencio de 22:00 a 07:00.",
+      "Mascotas no permitidas dentro de las instalaciones.",
+      "Check-in: 14:00 - 19:00. Check-out: Antes de las 10:00."
+    ],
+    "contacto": {
+      "email": "reservas@descansocondor.example.com",
+      "telefonoEmergencia": "+54 9 294 4000001",
+      "web": "www.descansocondor.example.com"
+    },
+    "calendarioBase": {
+      "temporadaAlta": { "inicio": "2024-12-01", "fin": "2025-02-28", "descripcion": "Verano, mayor afluencia." },
+      "temporadaMedia": { "inicio": "2024-09-01", "fin": "2024-11-30", "descripcion": "Primavera, clima variable." },
+      "temporadaBaja": { "inicio": "2025-03-01", "fin": "2025-05-31", "descripcion": "Otoño, menos gente, posible nieve temprana." },
+      "cerradoPorMantenimiento": { "inicio": "2025-06-01", "fin": "2025-08-31", "descripcion": "Invierno, cerrado excepto para grupos con reserva especial de expedición." }
+    },
+    "notasAdicionales": "El refugio funciona con energía solar y tiene agua de vertiente. El acceso a internet es limitado y solo para emergencias. Se recomienda llevar efectivo ya que no siempre hay señal para pagos electrónicos. Las condiciones climáticas en la montaña pueden cambiar rápidamente; venga preparado. El registro en el Parque Nacional es obligatorio antes de iniciar el sendero. Agradecemos su colaboración para mantener el entorno natural.",
+    "galeriaFotos": [
+      {"url": "/images/refugio_vista_1.jpg", "descripcion": "Vista panorámica desde el refugio."},
+      {"url": "/images/refugio_interior_dormis.jpg", "descripcion": "Interior de los dormitorios compartidos."},
+      {"url": "/images/refugio_amanecer_montana.jpg", "descripcion": "Amanecer sobre las cumbres."}
+    ],
+    "testimoniosFicticios": [
+      {"autor": "Ana G.", "fecha": "2024-01-15", "comentario": "Una experiencia inolvidable. El personal es muy amable y las vistas son espectaculares. ¡Volveré!"},
+      {"autor": "Carlos P.", "fecha": "2024-02-03", "comentario": "La comida es deliciosa y abundante. El sendero es desafiante pero vale la pena cada paso."},
+      {"autor": "Laura M.", "fecha": "2023-11-20", "comentario": "Ideal para desconectar. El silencio y la naturaleza son impresionantes. Recomiendo el alquiler de raquetas en invierno."}
+    ],
+    "versionConfig": "1.2.3",
+    "ultimaActualizacion": "2024-05-20T10:00:00Z"
+  }

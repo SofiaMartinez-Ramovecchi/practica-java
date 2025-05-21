@@ -1,0 +1,16 @@
+{
+  "name": "practica-para-entrevista",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "main.js",
+  "scripts": {
+    "test": "npm run dev",
+    "start": "node api/src/main.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}

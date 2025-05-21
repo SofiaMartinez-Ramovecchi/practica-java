@@ -1,0 +1,7 @@
+[
+    { "id": 1, "name": "Laptop Pro", "category": "Electronics", "price": 1200 },
+    { "id": 2, "name": "Coffee Maker", "category": "Home Appliances", "price": 80 },
+    { "id": 3, "name": "Gaming Mouse", "category": "Electronics", "price": 75 },
+    { "id": 4, "name": "Blender", "category": "Home Appliances", "price": 120 },
+    { "id": 5, "name": "Mechanical Keyboard", "category": "Electronics", "price": 150 }
+]
