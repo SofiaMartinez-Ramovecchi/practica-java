@@ -5,7 +5,11 @@ const router = express.Router();
 
 
 router.post("/", async (req, res) => {
+<<<<<<< HEAD
 
+=======
+//destructuring, desestructura la variable vector objeto (extrae)
+>>>>>>> 9d52c7f (add practice async await and functional)
     const { num1, num2, operation } = req.body;
     let result= 0 ;
     if (num1 === undefined || num2 === undefined || operation === undefined) {
@@ -22,4 +26,8 @@ router.post("/", async (req, res) => {
     }
     });
 
+<<<<<<< HEAD
     export default router;
+=======
+    export default router;
+>>>>>>> 9d52c7f (add practice async await and functional)

@@ -5,12 +5,25 @@
   "main": "main.js",
   "scripts": {
     "test": "npm run dev",
+<<<<<<< HEAD
     "start": "node api/src/main.js"
+=======
+    "start": "node api/src/main.js",
+    "dev": "nodemon api/src/main.js"
+>>>>>>> 9d52c7f (add practice async await and functional)
   },
   "author": "",
   "license": "ISC",
   "description": "",
   "dependencies": {
+<<<<<<< HEAD
     "express": "^5.1.0"
+=======
+    "express": "^5.1.0",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+>>>>>>> 9d52c7f (add practice async await and functional)
   }
 }

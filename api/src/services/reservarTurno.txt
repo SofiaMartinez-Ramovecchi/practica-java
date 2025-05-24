@@ -1,0 +1,49 @@
+
+
+
+export class ReservarTurnoService {
+    constructor() {
+        this.turnos = [];
+    }
+
+    reservarTurno(turno) {
+        this.turnos.push(turno);
+    }
+
+    getTurnos() {
+        return this.turnos;
+    }
+
+    leerLogsTurnos() {
+        return this.turnos;
+        retornar los logs de turnos
+    }
+
+    analizarLogsTurnos() {
+        fecha_reserva 
+        id_reserva
+        nombre_huesped
+        fecha_ingreso
+        noches
+        personas
+        servicio_principal
+        notas (puede o no ser null)
+        ANALIZAMOS 
+            FECHA DE INGRESO
+            CANTIDAD DE NOCHES
+            CANTIDAD DE PERSONAS
+            PARA COMPARAR LUEGO CON CAPACIDAD DEL REFUGIO Y DEVOLVER SI HAY O NO DISPONIBILIDAD 
+    }
+    parseJsonInfoRefugio() {
+        parsear el json de refugio
+    }
+    
+    leerCapacidadRefugio(){
+        retornamos capacidad del refugio
+    }
+
+    checkearDisponibilidad() {
+        devuelvo si esta ok o no la fecha;
+    }
+}
+
